@@ -15,6 +15,7 @@ namespace FirstTestApp.Controllers
 
         public ActionResult About()
         {
+            Console.WriteLine("a");
             ViewBag.Message = "Your application description page.";
 
             return View();
