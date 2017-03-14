@@ -24,6 +24,7 @@ namespace FirstTestApp.Controllers
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
+            ViewBag.a = "a";
             UserManager = userManager;
             SignInManager = signInManager;
         }
